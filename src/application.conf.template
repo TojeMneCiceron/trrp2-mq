@@ -1,0 +1,15 @@
+consoleRssServer {
+    address: "string"
+}
+
+messageQueueServer {
+    host: "string"
+    port: "int | 5672"
+    username: "string"
+    password: "string"
+}
+
+cacheServer {
+    host: "string"
+    port: "int"
+}
